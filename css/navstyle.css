@@ -37,5 +37,8 @@ hr {
   border: transparent;
   height: 2px;
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.801), transparent); }
-
+  
+.card{
+      z-index: 0; }
+  
 /*# sourceMappingURL=navstyle.css.map */

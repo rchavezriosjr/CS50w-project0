@@ -1,5 +1,14 @@
 $photohw:200px;
 $aspect:100%;
+
+%photostyle
+{
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
 *
 {
     font-family: "GoogleSans";
@@ -24,10 +33,7 @@ $aspect:100%;
 }
 .mypotho
 {
-    float: left;
-    display: table-cell;
-    vertical-align: middle;
-    padding-right: 15px;
+    @extend %photostyle;
     width: $photohw;
     height: $photohw;
 }
@@ -80,4 +86,10 @@ $aspect:100%;
 #cartitas
 {
     padding-bottom: 25px;
+}
+.card-text
+{
+    li{
+        list-style-type: square;
+    }
 }

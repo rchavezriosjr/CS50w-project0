@@ -1,4 +1,8 @@
 $colornav:#454d55;
+%marginzero
+{
+    margin: 0 0 0 0;
+}
 *
 {
     font-family: "GoogleSans";
@@ -12,13 +16,13 @@ $colornav:#454d55;
 }
 header
 {
-    margin: 0 0 0 0;
+    @extend %marginzero;
 }
 .navi
 {
+    @extend %marginzero;
     background-color: $colornav;
     position:fixed;
-    margin: 0 0 0 0;
     width: 100vw;
 }
 .nav-link , .navbar-brand

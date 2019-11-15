@@ -1,3 +1,6 @@
+header, .navi {
+  margin: 0 0 0 0; }
+
 * {
   font-family: "GoogleSans";
   outline: none; }
@@ -5,13 +8,9 @@
 .navbar-brand {
   padding-left: 20px; }
 
-header {
-  margin: 0 0 0 0; }
-
 .navi {
   background-color: #454d55;
   position: fixed;
-  margin: 0 0 0 0;
   width: 100vw; }
 
 .nav-link, .navbar-brand {

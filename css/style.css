@@ -1,3 +1,9 @@
+.mypotho {
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 15px; }
+
 * {
   font-family: "GoogleSans";
   outline: none; }
@@ -16,10 +22,6 @@
   background-color: transparent; }
 
 .mypotho {
-  float: left;
-  display: table-cell;
-  vertical-align: middle;
-  padding-right: 15px;
   width: 200px;
   height: 200px; }
 
@@ -52,5 +54,8 @@
     font-size: 17px; } }
 #cartitas {
   padding-bottom: 25px; }
+
+.card-text li {
+  list-style-type: square; }
 
 /*# sourceMappingURL=style.css.map */

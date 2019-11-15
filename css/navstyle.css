@@ -4,30 +4,28 @@
     
     outline: none;
 }
+
 .navbar-brand
 {
     padding-left: 20px;
 }
-header
-{
-    width: 100vw;
-    overflow: hidden;
-    position: fixed;
-}
 .navi
 {
     background-color: #454d55;
+    position:fixed;
+    margin: 0 0 0 0;
+    width: 100vw;
 }
 .nav-link , .navbar-brand
 {
     color: white;
 }
-li:hover
+.nav-item:hover
 {
     background-color: whitesmoke;
     color: black;
 }
-.nav-link:hover
+.nav-link:hover ,.navbar-brand:hover
 {
     color: black; 
 }

@@ -1,0 +1,40 @@
+*
+{
+    font-family: "GoogleSans";
+    
+    outline: none;
+}
+.navbar-brand
+{
+    padding-left: 20px;
+}
+header
+{
+    width: 100vw;
+    overflow: hidden;
+    position: fixed;
+}
+.navi
+{
+    background-color: #454d55;
+}
+.nav-link , .navbar-brand
+{
+    color: white;
+}
+li:hover
+{
+    background-color: whitesmoke;
+    color: black;
+}
+.nav-link:hover
+{
+    color: black; 
+}
+.table
+{
+    margin-top:5%;
+    box-shadow: -10px 10px 10px gray ;
+    height: 100%;
+    width: 100%;
+}

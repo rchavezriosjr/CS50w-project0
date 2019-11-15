@@ -11,7 +11,8 @@ header, .navi {
 .navi {
   background-color: #454d55;
   position: fixed;
-  width: 100vw; }
+  width: 100vw;
+  z-index: 9999;}
 
 .nav-link, .navbar-brand {
   color: white; }

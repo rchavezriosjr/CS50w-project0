@@ -40,6 +40,10 @@
 }
 @media (max-width: 599px)
 {
+    .mypotho
+    {
+        margin-bottom: 3%;
+    }
     .name::before
     {
         content:"Ricardo's Bio";

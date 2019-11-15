@@ -1,0 +1,83 @@
+$photohw:200px;
+$aspect:100%;
+*
+{
+    font-family: "GoogleSans";
+    
+    outline: none;
+}
+.card
+{
+    box-shadow: -10px 10px 10px gray ;
+    height: $aspect;
+    width: $aspect;
+}
+.jumbotron
+{
+    background-image: url("../images/340541.jpg");
+    background-size: cover;
+}
+.container
+{
+    display: table;
+    background-color: transparent;
+}
+.mypotho
+{
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 15px;
+    width: $photohw;
+    height: $photohw;
+}
+
+.name
+{
+    line-height:0.8;
+}
+.vermas
+{
+    float: right;
+}
+@media (max-width: 599px)
+{
+    .mypotho
+    {
+        margin-bottom: 3%;
+    }
+    .name::before
+    {
+        content:"Ricardo's Bio";
+    }
+    .jumbotron
+    {
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px)
+{
+    .name::before
+    {
+        content:"This is Ricardo Chavez";
+    }
+    .jumbotron
+    {
+        font-size: 15.2px;
+    }
+}
+@media (min-width: 1000px)
+{
+    .name
+    {
+        padding-top: 25px;
+    }
+    .jumbotron
+    {
+        font-size: 17px;
+    }
+}
+#cartitas
+{
+    padding-bottom: 25px;
+}

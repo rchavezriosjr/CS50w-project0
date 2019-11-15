@@ -1,52 +1,41 @@
-*
-{
-    font-family: "GoogleSans";
-    
-    outline: none;
-}
+* {
+  font-family: "GoogleSans";
+  outline: none; }
 
-.navbar-brand
-{
-    padding-left: 20px;
-}
-header
-{
-    margin: 0 0 0 0;
-}
-.navi
-{
-    background-color: #454d55;
-    position:fixed;
-    margin: 0 0 0 0;
-    width: 100vw;
-}
-.nav-link , .navbar-brand
-{
-    color: white;
-}
-.nav-item:hover
-{
-    background-color: whitesmoke;
-    color: black;
-}
-.nav-link:hover ,.navbar-brand:hover
-{
-    color: black; 
-}
-.table
-{
-    margin-top:5%;
-    box-shadow: -10px 10px 10px gray ;
-    height: 100%;
-    width: 100%;
-}
-.table .thead-dark th
-{
-    background-color: #454d55;
-}
-hr
-{
-    border:transparent;
-    height:2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0));
-}
+.navbar-brand {
+  padding-left: 20px; }
+
+header {
+  margin: 0 0 0 0; }
+
+.navi {
+  background-color: #454d55;
+  position: fixed;
+  margin: 0 0 0 0;
+  width: 100vw; }
+
+.nav-link, .navbar-brand {
+  color: white; }
+
+.nav-item:hover {
+  background-color: whitesmoke;
+  color: black; }
+
+.nav-link:hover, .navbar-brand:hover {
+  color: black; }
+
+.table {
+  margin-top: 5%;
+  box-shadow: -10px 10px 10px gray;
+  height: 100%;
+  width: 100%; }
+
+.table .thead-dark th {
+  background-color: #454d55; }
+
+hr {
+  border: transparent;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.801), transparent); }
+
+/*# sourceMappingURL=navstyle.css.map */
